@@ -4,6 +4,7 @@
 import asyncio
 import random
 
+
 async def wait_random(max_delay: int = 10) -> float:
     '''Takes an integer max_delay and returns a random float
     that is the result of the function wait_random.
